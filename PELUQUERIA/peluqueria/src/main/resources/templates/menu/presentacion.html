@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="layout/fragmentoPag :: cabecera"></head>
+
+<body>
+    <header th:replace="layout/fragmentoPag :: header">
+
+    </header>
+    <!-- Navigation-->
+    <nav th:replace="layout/fragmentoPag :: navegar"></nav>
+    <section class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" th:src="@{/images/maribel.jpg}" alt="..." />
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">La vida es más hermosa cuando conoces a la peluquera
+                                    adecuada.</span>
+                                <span class="section-heading-lower">Maribel Romero</span>
+                            </h2>
+                            <p> Soy una profesional con 12 años de experiencia, ofreciendo el mejor servicio de
+                                peluquería. En un ambiente muy agradable y acogedor donde cuento con gran variedad de
+                                inplementos para brindarte el mejor servicio, asesoría y calidad que garantizo en corte
+                                , teñido, manicure , pedicure, maquillaje, peinados, depilacion y tratamientos de
+                                belleza.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer th:replace="layout/fragmentoPag :: pie"></footer>
+    <!-- Bootstrap core JS-->
+    <script src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" }></script>
+    <!-- Core theme JS-->
+    <script src="@{js/scripts.js}"></script>
+</body>
+
+</html>

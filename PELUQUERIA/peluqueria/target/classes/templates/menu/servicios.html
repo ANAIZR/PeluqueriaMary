@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="layout/fragmentoPag :: cabecera"></head>
+
+<body>
+  <header th:replace="layout/fragmentoPag :: header">
+
+  </header>
+  <!-- Navigation-->
+  <nav th:replace="layout/fragmentoPag :: navegar"></nav>
+  <section class="page-section">
+    <div class="container">
+      <h1>
+        <p style="color: white;">A continuacion se mostrar todos los servicios que tenemos disponibles para usted.</p>
+      </h1>
+    </div>
+
+    <div class="container">
+      <div class="row gx-4 gx-lg-5">
+        <div class="card mb-4 " style="width: 18rem;">
+          <img th:src="@{/images/cortes.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CORTES</h5>
+            <p class="card-text">Podemos ofrecerle varios tipos de cortes a su preferencia.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/peinados.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">PEINADOS</h5>
+            <p class="card-text">Le podemos brindar todo tipo de peinado que se adapte a su gusto.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/manicure.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">MANICURE</h5>
+            <p class="card-text">Le brindamos todo tipo de estilos que a usted le guste.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/pedicure.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">PEDICURE</h5>
+            <p class="card-text">Le ofrecemos el mejor tratamiento para sus pies.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-4 gx-lg-5">
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/masajes.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">MASAJES</h5>
+            <p class="card-text">Le ofrecemos los mejores masajes que uno desee.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/limpieza.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">LIMPIEZA FACIAL</h5>
+            <p class="card-text">Le ofrecemos el mejor tratamiento para su cutis.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/depilacion.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">DEPILACION</h5>
+            <p class="card-text">Le ofrecemos todo tipo de depilacion que guste.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 18rem;">
+          <img th:src="@{/images/maquillaje.jpg}" class="card-img-top espacio" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">MAQUILLAJE</h5>
+            <p class="card-text">Le ofrecemos el mejor maquillado para no dañar su piel.</p>
+            <a href="#" class="btn btn-primary">Seleccionar servicio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer th:replace="layout/fragmentoPag :: pie"></footer>
+  <!-- Bootstrap core JS-->
+  <script src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" }></script>
+  <!-- Core theme JS-->
+  <script src="@{js/scripts.js}"></script>
+</body>
+
+</html>
